@@ -1,1 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YUAA Weekly News</title>
+		<style>
 
+			body {
+			     font-family: "Verdana", Arial, sans-serif;
+			     margin: 0;
+			     padding: 0;
+			     background-color: #f4f4f9;
+			     color: #333;
+			     position: relative;
+			     min-height: 100vh;
+			 }
+
+			 .main-container {
+			     max-width: 1200px;
+			     margin: 20px auto;
+			     background: white;
+			     padding: 20px;
+			     border-radius: 5px;
+			     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			 }
+
+			 .title-block {
+			     display: flex;
+                 flex-direction: row;
+			     align-items: center;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 20px;
+			     border-radius: 5px 5px 0 0;
+			     margin-bottom: 20px;
+			 }
+
+			 .title-block img {
+			     max-height: 100px;
+			     max-width: 255px;
+			     height: auto;
+			 }
+
+			 .title-block .separator {
+			     width: 2px;
+			     height: 120px;
+			     background-color: white;
+			     margin: 0 15px;
+			 }
+
+			 .title-block h1 {
+			     margin: 0;
+			     font-size: 30px;
+			     font-weight: bold;
+			     letter-spacing: 1px;
+			     line-height: 1.2;
+			 }
+
+			 h2 {
+			     font-size: 20px;
+			     color: black;
+			     margin-top: 15px;
+			     margin-bottom: 10px;
+			 }
+
+			 body, p, ul, li {
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 p {
+			     display: inline; /* Prevents line breaks from adding spacing */
+			     font-size: 16px;
+			     line-height: 1.6;
+                 margin-bottom: 10px;
+			     text-indent: 0; /* Prevents the first line from being indented */
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 li {
+			     font-size: 16px;
+			     line-height: 1.6;
+			 }
+
+			 ul {
+			     margin: 10px 0 20px;
+			     padding-left: 20px;
+
+			 }
+
+			 .highlighted-section {
+			     text-align: center;
+			     font-size: 18px;
+			     font-weight: bold;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 10px;
+			     margin-bottom: 20px;
+			     border-radius: 5px;
+			 }
+
+			 .content-block {
+			     margin-bottom: 20px;
+			     padding: 15px;
+			     border: 1px solid #ddd;
+			     border-radius: 5px;
+			     white-space: normal;
+			 }
+
+			 .sign-off {
+					 text-align: left;
+					 font-size: 16px;
+					 margin-top: 30px;
+					 }
+
+				 .sign-off-row {
+					 display: flex;
+					 align-items: center;      /* centers logo relative to BOTH lines */
+					 gap: 10px;
+					 }
+
+				 .sign-off-logo {
+					 width: 64px;
+					 height: 64px;
+					 object-fit: contain;
+					 flex: 0 0 32px;           /* keeps it square, no shrinking */
+					 }
+
+				.sign-off-text {
+					 line-height: 1.4;
+				 }
+
+			 @media (max-width: 768px) {
+			     .title-block {
+			         flex-direction: column;
+			         align-items: center;
+			     }
+
+			     .title-block .separator {
+			         display: none;
+			     }
+
+			     table {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table tr {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table td {
+			         display: block;
+			         width: 100%;
+			         padding: 0;
+			         border: none;
+			     }
+
+			     .highlighted-section {
+			         font-size: 16px;
+			         padding: 10px;
+			     }
+
+			     .content-block {
+			         margin-bottom: 5px;
+			         padding: 5px;
+			     }
+
+			     img {
+			         max-width: 100%;
+			         height: auto;
+			     }
+			 
+		</style>
+	</head>
+
+	<body>
+		<div class="main-container">
+			<!-- TITLE BLOCK -->
+			<div class="title-block">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- Image cell -->
+                    <td align="left" valign="middle" style="width:242px;">
+                        <img
+                          src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/yuaa_white.png"
+                          alt="YUAA Logo"
+                          style="display: block;"
+                        />
+                      </td>
+                      <!-- Separator cell -->
+                      <td align="center" valign="middle" style="padding: 0 15px;">
+                        <div style="width: 2px; height: 120px; background-color: white;"></div>
+                      </td>
+                      <!-- Text cell: left aligned with the separator -->
+                      <td align="left" valign="middle">
+                        <h1 style="margin: 0;">Mission Report</h1>
+                      </td>
+                  </tr>
+                </table>
+              </div>
+
+			<!-- OPENING BLOCK -->
+			<div class="content-block">
+				<h2> Greetings YUAA,</h2>
+				<p>
+					Say goodbye to plain-text emails! We don’t play around at YUAA (colloquially pronounced as ‘you-uh’), so to show you all that we’re standing on business, we’re redeploying this HTML format. As you all oo and awe at the colors and pictures, feel free to also stay informed about YUAA.  
+				</p>
+			</div>
+
+			<!-- TWO COLUMNS -->
+			<table align="center" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<!-- LEFT COLUMN -->
+					<td width="55%" valign="top" style="padding-right: 10px; border-right: 1px solid #ddd;">
+						<div class="highlighted-section">What's New?</div>
+						
+						<div class="content-block">
+							<h2>Subheading L1</h2>
+							
+							<p>
+								Lorem Ipsum followed by bulleted with bolded and email-linked list:
+							</p>
+							
+							<ul>
+								<li><b>Project 1:</b> Lorem Ipsum: <a href="mailto:yaleaerospace@gmail.com">PL1.</a></li>
+								<li><b>Project 2:</b> Lorem Ipsum: <a href="mailto:yaleaerospace@gmail.com">PL2.</a></li>
+								<li><b>Project 3:</b> Lorem Ipsum: <a href="mailto:yaleaerospace@gmail.com">PL3.</a></li>
+								<li><b>Project 4:</b> Lorem Ipsum: <a href="mailto:yaleaerospace@gmail.com">PL4.</a></li>
+								<li><b>Project 5:</b> Lorem Ipsum: <a href="mailto:yaleaerospace@gmail.com">PL5.</a></li>
+
+
+						</div>
+
+						<div class="content-block">
+                            <h2>Subheading L2</h2>                  
+                            <p>Lorem Ipsum followed by a gif then more Lorem Ipsum:</p>
+							<img
+								src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/YUAATHON.gif"
+								alt="YUAATHON"
+								style="max-width: 100%; border-radius: 5px;"
+							/>
+							<br>
+							<p>
+								Lorem Ipsum. </p>
+						
+                         </div>
+
+					</td>
+
+					<!-- RIGHT COLUMN -->
+					<td width="45%" valign="top" style="padding-left: 10px;">
+						<div class="highlighted-section">Highlights and Events</div>
+						<div class="content-block">
+							<h2>Subheading R1</h2>
+							<p>Lorem Ipsum followed by an image:</p>
+							<br>
+							<img
+								src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/yuaa_black.png"
+								alt="YUAA"
+								style="max-width: 80%; border-radius: 5px;"
+							/>
+						</div>
+
+						<div class="content-block">
+                            <h2>Subheading R2</h2>                  
+                            <p>Lorem Ipsum followed by a paragraph break and a linked Lorem Ipsum: </p>  
+							<br>
+							<br>
+							<p><a href="https://yaleaerospace.org/">Lorem Ipsum.</a></a></p>
+				
+                         </div>
+						
+
+					</td>
+				</tr>
+			</table>
+
+			<div class = "content-block">
+				<h3>Subheading C1</h3>
+				<p>Lorem Ipsum but back as monocolumn. </p>
+
+			</div>
+
+			<!-- SIGN-OFF (email-safe) -->
+			<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:30px;">
+			<tr>
+				<td style="vertical-align:middle; padding-right:16px;">
+					<img src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/YUAA%20Logo.png" alt="Logo" width="48" height="48"
+						style="display:block; width:81px; height:81px; margin-top:0px;" />
+				</td>
+				<td style="vertical-align:middle; font-size:16px; line-height:1.4; color:#333; font-family:Verdana, Arial, sans-serif;">
+					Ad Astra,<br />
+					<b>Thing 1 &amp; Thing 2</b>
+				</td>
+			</tr>
+			</table>
+		</div>
+	</body>
+</html>
