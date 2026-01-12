@@ -1,1 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YUAA Call for Applications</title>
+		<style>
 
+			body {
+			     font-family: "Verdana", Arial, sans-serif;
+			     margin: 0;
+			     padding: 0;
+			     background-color: #f4f4f9;
+			     color: #333;
+			     position: relative;
+			     min-height: 100vh;
+			 }
+
+			 .main-container {
+			     max-width: 1200px;
+			     margin: 20px auto;
+			     background: white;
+			     padding: 20px;
+			     border-radius: 5px;
+			     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			 }
+
+			 .title-block {
+			     display: flex;
+                 flex-direction: row;
+			     align-items: center;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 20px;
+			     border-radius: 5px 5px 0 0;
+			     margin-bottom: 20px;
+			 }
+
+			 .title-block img {
+			     max-height: 100px;
+			     max-width: 255px;
+			     height: auto;
+			 }
+
+			 .title-block .separator {
+			     width: 2px;
+			     height: 120px;
+			     background-color: white;
+			     margin: 0 15px;
+			 }
+
+			 .title-block h1 {
+			     margin: 0;
+			     font-size: 30px;
+			     font-weight: bold;
+			     letter-spacing: 1px;
+			     line-height: 1.2;
+			 }
+
+			 h2 {
+			     font-size: 20px;
+			     color: black;
+			     margin-top: 15px;
+			     margin-bottom: 10px;
+			 }
+
+			 body, p, ul, li {
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 p {
+			     display: inline; /* Prevents line breaks from adding spacing */
+			     font-size: 16px;
+			     line-height: 1.6;
+                 margin-bottom: 10px;
+			     text-indent: 0; /* Prevents the first line from being indented */
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 li {
+			     font-size: 16px;
+			     line-height: 1.6;
+			 }
+
+			 ul {
+			     margin: 10px 0 20px;
+			     padding-left: 20px;
+
+			 }
+
+			 .highlighted-section {
+			     text-align: center;
+			     font-size: 18px;
+			     font-weight: bold;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 10px;
+			     margin-bottom: 20px;
+			     border-radius: 5px;
+			 }
+
+			 .content-block {
+			     margin-bottom: 20px;
+			     padding: 15px;
+			     border: 1px solid #ddd;
+			     border-radius: 5px;
+			     white-space: normal;
+			 }
+
+			 .sign-off {
+					 text-align: left;
+					 font-size: 16px;
+					 margin-top: 30px;
+					 }
+
+				 .sign-off-row {
+					 display: flex;
+					 align-items: center;      /* centers logo relative to BOTH lines */
+					 gap: 10px;
+					 }
+
+				 .sign-off-logo {
+					 width: 64px;
+					 height: 64px;
+					 object-fit: contain;
+					 flex: 0 0 32px;           /* keeps it square, no shrinking */
+					 }
+
+				.sign-off-text {
+					 line-height: 1.4;
+				 }
+
+			 @media (max-width: 768px) {
+			     .title-block {
+			         flex-direction: column;
+			         align-items: center;
+			     }
+
+			     .title-block .separator {
+			         display: none;
+			     }
+
+			     table {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table tr {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table td {
+			         display: block;
+			         width: 100%;
+			         padding: 0;
+			         border: none;
+			     }
+
+			     .highlighted-section {
+			         font-size: 16px;
+			         padding: 10px;
+			     }
+
+			     .content-block {
+			         margin-bottom: 5px;
+			         padding: 5px;
+			     }
+
+			     img {
+			         max-width: 100%;
+			         height: auto;
+			     }
+			 
+		</style>
+	</head>
+
+	<body>
+		<div class="main-container">
+			<!-- TITLE BLOCK -->
+			<div class="title-block">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- Image cell -->
+                    <td align="left" valign="middle" style="width:242px;">
+                        <img
+                          src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/yuaa_white.png"
+                          alt="YUAA Logo"
+                          style="display: block;"
+                        />
+                      </td>
+                      <!-- Separator cell -->
+                      <td align="center" valign="middle" style="padding: 0 15px;">
+                        <div style="width: 2px; height: 120px; background-color: white;"></div>
+                      </td>
+                      <!-- Text cell: left aligned with the separator -->
+                      <td align="left" valign="middle">
+                        <h1 style="margin: 0;">Lab Space Updates</h1>
+                      </td>
+                  </tr>
+                </table>
+              </div>
+
+			<!-- OPENING BLOCK -->
+			<div class="content-block">
+				<h2> Greetings YUAA,</h2>
+				<p>
+					Welcome back to campus! Before we unpack and fully lock into the YUAA groove, take a minute to review a few key action items as we prepare for the great and spectacular YUAA move-in.
+					</p>
+			</div>
+
+			<!-- TWO COLUMNS -->
+			<table align="center" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<!-- LEFT COLUMN -->
+					<td width="55%" valign="top" style="padding-right: 10px; border-right: 1px solid #ddd;">
+						<div class="highlighted-section">Lab Space Requirements</div>
+						
+						<div class="content-block">
+							<h2>Mandatory General Meeting</h2>
+							
+							<p>Remember that we have a mandatory EHS Safety Meeting <b>TODAY at 4:15 PM in BCT 218</b> (our new home)!  If you can't attend, please message us so we can ensure you're caught up.</p>
+						</div>
+
+						<div class="content-block">
+                            <h2>Safety Trainings</h2>                  
+                            <p>
+								Before the aforementioned meeting, please complete both the Laboratory Safety Training on <a href="https://workday.yale.edu/"</a>Workday</a> (log in with your NetID) and the <a href="https://yaleu.inclassnow.com/?ReturnUrl=%2Ftraining">Hand and Power Tool Safety Training</a> on Safety Skills LMS (you should have received an email about this recently, let us know if you haven't).
+							</p>
+								
+                         </div>
+
+						 <div class="content-block">
+                            <h2>Swipe Access</h2>                  
+                            <p>
+								We will be hosting President Office Hours throughout this week in the CEID classrooms (check the <a href="https://calendar.google.com/calendar/u/0?cid=Y19lYTM1Nzk0MjhjYjA2MmE2Zjk4NGQyMzM1Mzk0YTIwYzc4NDI1OTQ1MjM4ODc5ZWM2NGNmYTE0MGNiOTIxYTcxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">YUAA GCal</a> to see when).  If you have completed both online trainings and are up to date on EHS policies, you can obtain swipe access to our new workspace by stopping by for a few minutes.  This is an opportunity for us to verify that everyone is fully trained and hear your ideas for our new workspace, and we've provided a wide range of time slots throughout the week so everyone can attend.
+
+							</p>
+								
+                         </div>
+						 
+					</td>
+
+					<!-- RIGHT COLUMN -->
+					<td width="45%" valign="top" style="padding-left: 10px;">
+						<div class="highlighted-section">Spring 2026 Board</div>
+						<div class="content-block">
+							<h2>Board Changes</h2>
+							<p> 
+								We’re excited to introduce our new board members for the Spring 2026 semester! Please give them a warm welcome!!
+							</p>
+							<br>
+							<br>
+							<li>Project Manager, <b>Andrea Bylykbashi</b> </li>
+							<li>Treasurer, <b>Ivan Pankov</b></li>
+							<li>Director of Development, <b>Kylyn Smith</b></li>
+						</div>
+
+						<div class="content-block">
+							<h2>Words from our Statistician</h2>
+							<img
+								src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Jan2025/YUCONOMY.png"
+								alt="YUAATHON"
+								style="max-width: 100%; border-radius: 5px;"
+							/>
+						</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<!-- SIGN-OFF (email-safe) -->
+			<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:30px;">
+			<tr>
+				<td style="vertical-align:middle; padding-right:16px;">
+					<img src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/YUAA%20Logo.png" alt="Logo" width="48" height="48"
+						style="display:block; width:81px; height:81px; margin-top:0px;" />
+				</td>
+				<td style="vertical-align:middle; font-size:16px; line-height:1.4; color:#333; font-family:Verdana, Arial, sans-serif;">
+					Ad Astra,<br />
+					<b>Aaron &amp; Ava</b>
+				</td>
+			</tr>
+			</table>
+		</div>
+	</body>
+</html>
