@@ -201,26 +201,34 @@
                 </table>
               </div>
 
-			  <!-- OPENING BLOCK -->
-<div class="content-block" style="display: flex; align-items: flex-start; gap: 20px;">
-    
-    <!-- TEXT -->
-    <div style="flex: 1;">
-        <h2>You may be wondering,</h2>
-        <p>
-            "Why am I getting a YUAA board application email?"
-            <br><br>
-            Whether you’ve been inspired by humanity’s return to the Moon with Artemis II, or you’re interested in the momentum behind SpaceX and its massive IPO, YUAA is a great place to explore the space industry.
-            <br><br>
-            We’re currently recruiting new members for our business operations team—no engineering background needed. Even if you’re not already involved with YUAA, we welcome fresh perspectives, so don’t hesitate to apply.
-        </p>
-    </div>
+              <!-- OPENING BLOCK -->
+<div class="content-block">
 
-    <!-- IMAGE -->
-    <img src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/YUAA%20Logo.png" alt="YUAA Image" style="width: 250px; height: auto; border-radius: 8px;">
-    
+  <img
+    src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Apr2026/ArtemisII.png"
+    alt="YUAA Image"
+    style="
+      float: left;
+      width: 35%;
+      max-width: 280px;
+      height: auto;
+      margin: 0 15px 10px 0;
+      border-radius: 8px;
+      display: block;
+    "
+  />
+
+  <h2 style="margin-top: 0;">You may be wondering,</h2>
+  <p>
+    "Why am I getting a YUAA board application email?"
+    <br><br>
+    Whether you’ve been inspired by humanity’s return to the Moon with Artemis II, or you’re interested in the momentum behind SpaceX and its massive IPO, YUAA is a great place to explore the space industry.
+    <br><br>
+    We’re currently recruiting new members for our business operations team—no engineering background needed. Even if you’re not already involved with YUAA, we welcome fresh perspectives, so don’t hesitate to apply.
+  </p>
+
+  <div style="clear: both;"></div>
 </div>
-
 
 			<!-- TWO COLUMNS -->
 			<table align="center" width="100%" cellspacing="0" cellpadding="0">
@@ -253,9 +261,16 @@
 							<h2>Roles</h2>
 							<ul>
 								<li>Co-President
-								<li>Director of Finance & Finance Committee
-								<li>Director of Operations & Operations Committee
-								<li>Director of Public Relations & PR Committee
+                                <br>
+                                </br>
+								<li>Director of Finance
+								<li>Director of Operations
+								<li>Director of Public Relations
+                                <br>
+                                </br>
+                                <li>Finance Committee
+                                <li>Operations Committee</li>
+                                <li>PR Committee</li>
 						</div>
 
 						<div class="content-block">
