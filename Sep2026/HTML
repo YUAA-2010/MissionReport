@@ -1,1 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YUAA Weekly News</title>
+		<style>
 
+			body {
+			     font-family: "Verdana", Arial, sans-serif;
+			     margin: 0;
+			     padding: 0;
+			     background-color: #f4f4f9;
+			     color: #333;
+			     position: relative;
+			     min-height: 100vh;
+			 }
+
+			 .main-container {
+			     max-width: 1200px;
+			     margin: 20px auto;
+			     background: white;
+			     padding: 20px;
+			     border-radius: 5px;
+			     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			 }
+
+			 .title-block {
+			     display: flex;
+                 flex-direction: row;
+			     align-items: center;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 20px;
+			     border-radius: 5px 5px 0 0;
+			     margin-bottom: 20px;
+			 }
+
+			 .title-block img {
+			     max-height: 100px;
+			     max-width: 255px;
+			     height: auto;
+			 }
+
+			 .title-block .separator {
+			     width: 2px;
+			     height: 120px;
+			     background-color: white;
+			     margin: 0 15px;
+			 }
+
+			 .title-block h1 {
+			     margin: 0;
+			     font-size: 30px;
+			     font-weight: bold;
+			     letter-spacing: 1px;
+			     line-height: 1.2;
+			 }
+
+			 h2 {
+			     font-size: 20px;
+			     color: black;
+			     margin-top: 15px;
+			     margin-bottom: 10px;
+			 }
+
+			 body, p, ul, li {
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 p {
+			     display: inline; /* Prevents line breaks from adding spacing */
+			     font-size: 16px;
+			     line-height: 1.6;
+                 margin-bottom: 10px;
+			     text-indent: 0; /* Prevents the first line from being indented */
+			     white-space: normal; /* Prevents extra spaces from rendering */
+			 }
+
+			 li {
+			     font-size: 16px;
+			     line-height: 1.6;
+			 }
+
+			 ul {
+			     margin: 10px 0 20px;
+			     padding-left: 20px;
+
+			 }
+
+			 .highlighted-section {
+			     text-align: center;
+			     font-size: 18px;
+			     font-weight: bold;
+			     background-color: #00356b;
+			     color: white;
+			     padding: 10px;
+			     margin-bottom: 20px;
+			     border-radius: 5px;
+			 }
+
+			 .content-block {
+			     margin-bottom: 20px;
+			     padding: 15px;
+			     border: 1px solid #ddd;
+			     border-radius: 5px;
+			     white-space: normal;
+			 }
+
+			 .sign-off {
+					 text-align: left;
+					 font-size: 16px;
+					 margin-top: 30px;
+					 }
+
+				 .sign-off-row {
+					 display: flex;
+					 align-items: center;      /* centers logo relative to BOTH lines */
+					 gap: 10px;
+					 }
+
+				 .sign-off-logo {
+					 width: 64px;
+					 height: 64px;
+					 object-fit: contain;
+					 flex: 0 0 32px;           /* keeps it square, no shrinking */
+					 }
+
+				.sign-off-text {
+					 line-height: 1.4;
+				 }
+
+			 @media (max-width: 768px) {
+			     .title-block {
+			         flex-direction: column;
+			         align-items: center;
+			     }
+
+			     .title-block .separator {
+			         display: none;
+			     }
+
+			     table {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table tr {
+			         display: block;
+			         width: 100%;
+			     }
+
+			     table td {
+			         display: block;
+			         width: 100%;
+			         padding: 0;
+			         border: none;
+			     }
+
+			     .highlighted-section {
+			         font-size: 16px;
+			         padding: 10px;
+			     }
+
+			     .content-block {
+			         margin-bottom: 5px;
+			         padding: 5px;
+			     }
+
+			     img {
+			         max-width: 100%;
+			         height: auto;
+			     }
+			 
+		</style>
+	</head>
+
+	<body>
+		<div class="main-container">
+			<!-- TITLE BLOCK -->
+			<div class="title-block">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <!-- Image cell -->
+                    <td align="left" valign="middle" style="width:242px;">
+                        <img
+                          src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/yuaa_white.png"
+                          alt="YUAA Logo"
+                          style="display: block;"
+                        />
+                      </td>
+                      <!-- Separator cell -->
+                      <td align="center" valign="middle" style="padding: 0 15px;">
+                        <div style="width: 2px; height: 120px; background-color: white;"></div>
+                      </td>
+                      <!-- Text cell: left aligned with the separator -->
+                      <td align="left" valign="middle">
+                        <h1 style="margin: 0;">Mission Report</h1>
+                      </td>
+                  </tr>
+                </table>
+              </div>
+
+			<!-- OPENING BLOCK -->
+			<div class="content-block">
+				<h2> Hello YUAA!</h2>
+				<p>
+					Welcome back to campus! Whether you met us at the EC Bazaar on Sunday or have been a longtime lurker on our email list, we hope to see you at our kickoff event <b>tomorrow</b>.  Take this opportunity to learn more about this year's aerospace engineering projects from the project leads and presidents!
+				</p>
+			</div>
+
+			<!-- TWO COLUMNS -->
+			<table align="center" width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<!-- LEFT COLUMN -->
+					<td width="55%" valign="top" style="padding-right: 10px; border-right: 1px solid #ddd;">
+						<div class="highlighted-section">TOMORROW: YUAA Kickoff!</div>
+						
+						<div class="content-block">
+							<div class="event-info">
+   						 	<div><strong>WHAT:</strong> Your chance to learn more about what we do</div>
+   							
+							<div><strong>WHEN:</strong> Wed, Sep 9th @ 7:00 PM</div>
+    						
+							<div><strong>WHERE:</strong> SSS 114</div>
+							
+							<div><strong>WHO:</strong> Anyone interested in aerospace!</div>
+							<img
+								src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/yuaa_black.png"
+								alt="YUAA"
+								style="max-width: 80%; border-radius: 5px;"
+							/>
+					</td>
+
+					<!-- RIGHT COLUMN -->
+					<td width="45%" valign="top" style="padding-left: 10px;">
+						<div class="highlighted-section">Project Overview</div>
+						<div class="content-block">
+							<p>
+								The 2026-27 YUAA projects and Project Leads are:
+							</p>
+							<br>
+					<br><div style="font-family:Verdana, Arial, sans-serif; font-size:16px; line-height:1.5;">
+					<div style="margin-bottom:8px;">
+						<b>Project Liquid:</b>
+						<a href="mailto:riley.houser@yale.edu">Riley Houser</a>
+						&amp;
+						<a href="mailto:alinne.romero-torres@yale.edu">Alinne Romero-Torres</a>
+					</div>
+
+					<div style="margin-bottom:8px;">
+						<b>Project Jet:</b>
+						<a href="mailto:will.turrel@yale.edu">Will Turrell</a>
+						&amp;
+						<a href="mailto:clemi.scherzer@yale.edu">Clemi Scherzer</a>
+					</div>
+
+					<div style="margin-bottom:8px;">
+						<b>Space Policy:</b>
+						<a href="mailto:victoria.tan@yale.edu">Victoria Tan</a>
+						&amp;
+						<a href="mailto:aiyana.halstenberg@yale.edu">Aiyana Halstenberg</a>
+					</div>
+
+					<div>
+						<b>Project CubeSat:</b>
+						<a href="mailto:austin.giffen@yale.edu">Austin Giffen</a>
+					</div>
+				</div>
+
+					</td>
+				</tr>
+			</table>
+			
+<div style="text-align: center;">
+    <img
+        src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/main/Sep2026/YUAA%20Kickoff.png"
+        alt="YUAA"
+        style="max-width: 100%; border-radius: 5px;"
+    />
+</div>			<!-- SIGN-OFF (email-safe) -->
+			<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:30px;">
+			<tr>
+				<td style="vertical-align:middle; padding-right:16px;">
+					<img src="https://raw.githubusercontent.com/YUAA-2010/MissionReport/refs/heads/main/Template/YUAA%20Logo.png" alt="Logo" width="48" height="48"
+						style="display:block; width:81px; height:81px; margin-top:0px;" />
+				</td>
+				<td style="vertical-align:middle; font-size:16px; line-height:1.4; color:#333; font-family:Verdana, Arial, sans-serif;">
+					Ad Astra,<br />
+					<b>Ava &amp; Andrea</b>
+					<br>
+					2026-27 Co-Presidents
+				</td>
+			</tr>
+			</table>
+		</div>
+	</body>
+</html>
